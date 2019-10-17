@@ -8,6 +8,7 @@ type Person struct {
 	lastName  string
 }
 
+// fullName is a extention method for Person
 func (p Person) fullName() string {
 	return p.firstName + " ," + p.lastName
 }

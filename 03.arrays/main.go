@@ -16,7 +16,6 @@ func main() {
 	fmt.Println(b)
 
 	// Assign values to each array
-
 	x1 := [5]int{
 		12, 13, 14, 145, 16,
 	}
